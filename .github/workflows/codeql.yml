@@ -40,7 +40,7 @@ contract DailyDonut {
     uint256 public claimId;
 
     event Transfer(address indexed from, address indexed to, uint256 claimId);
-
+5c066c4a0c3960ccece66e23eb4d17cfee10f564
     function getCurrentDay() public view returns (uint256) {
         return block.timestamp / 1 days;
     }
